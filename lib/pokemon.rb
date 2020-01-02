@@ -1,5 +1,5 @@
 class Pokemon
-  attr_accessor :id, :name, :type. :hp. :db
+  attr_accessor :id, :name, :type, :hp, :db
 
   def salf.save(name, type, db)
     db.execute("INSERT INTO pokemon (name, type) VALUES (?, ?)", name, type)
